@@ -43,7 +43,7 @@ public class JeuDeCartes {
 	}
 	
 	public String affichageJeuDeCartes() {
-		StringBuilder jdc = new StringBuilder("JEU :\n");
+		StringBuilder jdc = new StringBuilder();
 		for (Configuration configuration : configurations) {
 			jdc.append(configuration.getNbExemplaires())
 			.append(" ")
